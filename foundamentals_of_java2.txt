@@ -1,0 +1,51 @@
+1) what is statically typed and Dynamically typed programming language?
+Statically typed means initialize datatypes before compalation.
+Dynamically typed means initialize after excution.
+
+2) what is variable in java?
+ Variables are containers for storing data values. 
+syntax : Datatype variableName = value;
+
+3) How to assign a value to variable?
+Using assignment operator.
+
+4) what are primitive datatypes in java?
+byte,short,int,long
+boolean,logic
+
+5) what are the identifiers in java?
+class Name , variableName , method name
+
+6) List the operators in java?
+-->Arthimatic operators
+-->Relational operators
+-->Logical operators
+-->Assignment operators
+-->Unary operators
+-->Bitwise operators
+
+7)Explain about increment and decrement operators and give an examples
+Inccrement operators and decrement operators are used for increase the value for 1
+or decrease the value for 1
+examples : 
+public class Operator
+{
+public static void main(String []args)
+{
+int a=5;
+a++;
+System.out.println(a);
+++a;
+System.out.println(a);
+a--;
+System.out.println(a);
+--a;
+System.out.println(a);
+}
+}
+output :
+6
+7
+6
+5
+                
